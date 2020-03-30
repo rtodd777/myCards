@@ -85,6 +85,7 @@ class DeckDetail extends Component {
 		const size = deck.questions.length;
 
 		return (
+
 			<View style={styles.container}>
 
 				<Animated.View style={[styles.card, {transform: [{ scale: bounceValue }]}]}>
@@ -107,6 +108,10 @@ class DeckDetail extends Component {
 					</Text>
 				</TouchableOpacity>
 			</View>
+
+
+
+
 		);
 	}
 }
@@ -141,6 +146,7 @@ const styles = StyleSheet.create({
 		marginBottom: 10,
 	},
 	buttonSmall: {
+		marginTop: 1,
 		height: 42,
 		width: 150,
 		alignItems: 'center',

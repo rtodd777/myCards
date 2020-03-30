@@ -4,7 +4,7 @@
 // Developer...... R. Todd Stephens
 // Date Written... 3/27/2020
 // -------------------------------------------------------------------
-export const sendNotifications = false;
+export const sendNotifications = true;
 export const resetApp = false;
 
 // Main Background Color

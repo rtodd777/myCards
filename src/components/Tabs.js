@@ -14,7 +14,7 @@ import AddCard from './AddCard';
 import QuizView from './QuizView';
 import SplashScreen from './SplashScreen';
 import { Platform } from 'react-native';
-import { white, orange, purple, light_purple } from '../utils/colors';
+import { white, orange, purple } from '../utils/colors';
 
 
 // Tab Navigation
@@ -99,7 +99,7 @@ export const MainNavigator = StackNavigator({
   QuizView: {
     screen: QuizView,
     navigationOptions: {
-      title: 'Quiz',
+      title: 'Quiz View',
       headerTintColor: white,
       headerStyle: {
         backgroundColor: purple
